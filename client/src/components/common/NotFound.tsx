@@ -31,7 +31,7 @@ const NotFound = () => {
 export default NotFound;
 
 const NotFoundContainer = styled.div`
-  padding: 16vh 5vw;
+  padding: 16vh 5%;
   text-align: center;
 `;
 

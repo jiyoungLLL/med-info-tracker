@@ -46,8 +46,8 @@ const BottomSheet = ({
 const Overlay = styled.div`
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: var(--app-frame-left);
+  width: var(--app-frame-width);
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   transition: opacity 0.3s ease;
@@ -57,8 +57,8 @@ const Overlay = styled.div`
 const SheetContainer = styled.div`
   position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: var(--app-frame-left);
+  width: var(--app-frame-width);
   max-height: 80%;
   background: #fff;
   border-radius: 20px 20px 0 0;

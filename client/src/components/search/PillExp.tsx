@@ -112,7 +112,7 @@ const PillExpBox = styled.div`
   border: 1px solid #bfbfbf;
   margin: auto;
   padding: 10px 20px;
-  width: 85vw;
+  width: 85%;
   border-radius: 20px;
 
   & li {

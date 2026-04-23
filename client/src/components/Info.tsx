@@ -49,18 +49,18 @@ const Text = styled.div<{ category: '혈당' | '체온' | '사진 기록' }>`
   ${({ category }) =>
     category === '체온' &&
     css`
-      width: 35vw;
+      width: min(35vw, 168px);
     `}
 
   ${({ category }) =>
     category === '혈당' &&
     css`
-      width: 65vw;
+      width: min(65vw, 312px);
     `}
 
-    ${({ category }) =>
+  ${({ category }) =>
     category === '사진 기록' &&
     css`
-      width: 60vw;
+      width: min(60vw, 288px);
     `}
 `;

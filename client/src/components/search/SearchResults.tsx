@@ -267,7 +267,7 @@ const SearchResultsContainer = styled.div``;
 const PillInfo = styled.div`
   display: flex;
   align-items: flex-start;
-  width: 80vw;
+  width: 80%;
   margin: auto;
 
   & section {
@@ -345,7 +345,7 @@ const InfoBox = styled.div`
 const Source = styled.p`
   display: flex;
   align-items: center;
-  margin: 15px 10vw;
+  margin: 15px 10%;
   font-size: 14px;
 
   & a {

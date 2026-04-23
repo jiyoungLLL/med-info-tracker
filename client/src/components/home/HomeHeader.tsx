@@ -3,7 +3,7 @@ import SearchBox from '../search/SearchBox';
 
 const MainHeaderContainer = styled.div`
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 25vh;
   background-color: #ffeb41;
   display: flex;

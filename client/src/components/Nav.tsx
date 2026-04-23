@@ -98,7 +98,8 @@ const NavContainer = styled.nav`
   position: fixed;
   z-index: 10;
   bottom: 0;
-  width: 100vw;
+  left: var(--app-frame-left);
+  width: var(--app-frame-width);
   height: 80px;
   background-color: #ffffff;
   & ul {
