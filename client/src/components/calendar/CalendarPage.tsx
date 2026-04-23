@@ -182,7 +182,7 @@ const CalendarPage: React.FC = () => {
 export default CalendarPage;
 
 const CalendarContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -243,8 +243,8 @@ const DetailContainer = styled.div`
 const Modal = styled.div<{ expanded?: string }>`
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
+  left: var(--app-frame-left);
+  width: var(--app-frame-width);
   height: 100vh;
   background: rgba(0, 0, 0, 0.3);
   z-index: ${({ expanded }) => (expanded ? '10' : '-1')};

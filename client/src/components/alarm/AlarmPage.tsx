@@ -155,7 +155,7 @@ const AlarmContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 85vw;
+  width: 85%;
   margin: auto;
 `;
 

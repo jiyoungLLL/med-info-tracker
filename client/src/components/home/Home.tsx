@@ -8,7 +8,7 @@ import { useState } from 'react';
 import Seo from '../common/Seo';
 
 const MainContainer = styled.div`
-  width: 100vw;
+  width: 100%;
 `;
 
 const Home: React.FC = () => {

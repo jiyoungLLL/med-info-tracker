@@ -168,7 +168,7 @@ const SearchBoxContainer = styled.div`
   padding: 0 15px;
   margin-bottom: 10px;
   box-sizing: border-box;
-  width: 90vw;
+  width: 90%;
   height: 40px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

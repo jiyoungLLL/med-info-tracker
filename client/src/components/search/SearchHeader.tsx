@@ -49,7 +49,7 @@ export default SearchHeader;
 const BackgroundHeader = styled.div`
   position: relative;
   margin-bottom: 40px;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   background-color: var(--main-color);
 `;

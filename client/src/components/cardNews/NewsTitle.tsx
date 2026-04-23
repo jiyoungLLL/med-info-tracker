@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import '../../assets/font/font.css';
 
 const NewsTitleContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 11vh;
   background-color: #ffeb41;
   display: flex;

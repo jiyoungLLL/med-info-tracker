@@ -260,11 +260,11 @@ const Pill = styled.div`
 const ButtonContainer = styled.div`
   position: fixed;
   bottom: 0px;
-  left: 0px;
+  left: var(--app-frame-left);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: var(--app-frame-width);
   margin-bottom: 80px;
   height: 50px;
   background-color: var(--main-color);

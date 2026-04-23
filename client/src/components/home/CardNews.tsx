@@ -55,7 +55,7 @@ const CardNews: React.FC = () => {
 };
 
 const Container = styled.div`
-  margin: 8vh 8vw;
+  margin: 8vh 8%;
 `;
 
 const Title = styled.div`
@@ -67,7 +67,7 @@ const News = styled.img.attrs({
   src: `/img/news.png`,
   alt: 'News Icon'
 })`
-  width: 5.5vw;
+  width: 26px;
   height: auto;
   margin-top: 2%;
   margin-right: 2%;

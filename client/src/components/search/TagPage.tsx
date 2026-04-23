@@ -125,7 +125,7 @@ const TagTitle = styled.div`
 const ListContainer = styled.div`
   padding-bottom: 100px;
   margin: auto;
-  width: 85vw;
+  width: 85%;
   > p {
     padding-top: 10px;
     color: #696969;

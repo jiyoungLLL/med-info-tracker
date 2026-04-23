@@ -181,7 +181,7 @@ const ChattingInputContainer = styled.form`
   padding-left: 15px;
   padding-right: 5px;
   box-sizing: border-box;
-  width: 80vw;
+  width: 80%;
   height: 40px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

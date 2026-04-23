@@ -18,5 +18,5 @@ const ChatBot: React.FC = () => {
 export default ChatBot;
 
 const ChatBotContainer = styled.div`
-  width: 100vw;
+  width: 100%;
 `;

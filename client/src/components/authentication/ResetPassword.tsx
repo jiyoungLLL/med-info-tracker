@@ -244,8 +244,8 @@ const ResetPasswordRequest = () => {
 const Overlay = styled.div`
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: var(--app-frame-left);
+  width: var(--app-frame-width);
   height: 100%;
   background: white;
   transition: opacity 0.3s ease;

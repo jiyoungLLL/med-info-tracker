@@ -169,7 +169,7 @@ const AlarmSettingsContainer = styled.div`
   margin: auto;
   padding: 20px 0;
   margin-bottom: 160px;
-  width: 80vw;
+  width: 80%;
 
   & h2 {
     font-size: 18px;
@@ -214,10 +214,11 @@ const AlarmTime = styled.section`
 const ButtonContainer = styled.div`
   position: fixed;
   bottom: 0px;
+  left: var(--app-frame-left);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: var(--app-frame-width);
   margin-bottom: 100px;
   height: 60px;
   background-color: var(--main-color);

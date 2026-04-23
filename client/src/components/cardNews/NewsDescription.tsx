@@ -17,7 +17,7 @@ const NewsDescription = ({ description }: NewsDescriptionProps) => {
 };
 
 const DescriptionContainer = styled.div`
-  margin: 5vh 7vw;
+  margin: 5vh 7%;
   heightL auto;
 `;
 
